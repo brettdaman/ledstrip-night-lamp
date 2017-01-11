@@ -182,9 +182,9 @@ void loop()
     for( int pixel = 0; pixel < NUM_LEDS; pixel++) {
       if (leds[pixel] != virtualLeds[pixel]){
         for ( int color = 0; color < 3; color++) {
-          if(virtualLeds[pixel][color] < leds[pixel][color]){
+          if(virtualLeds[pixel][color] < leds[pixel][color] - 2){
             leds[pixel][color] = (virtualLedsSpeed == 0)? leds[pixel][color] -5 : leds[pixel][color] -1;
-          }else if (virtualLeds[pixel][color] > leds[pixel][color]){
+          }else if (virtualLeds[pixel][color] > leds[pixel][color] + 2){
             leds[pixel][color] = (virtualLedsSpeed == 0)? leds[pixel][color] +5 : leds[pixel][color] +1;
           }
         leds[pixel][color] = (leds[pixel][color] > 255) ? 255 : leds[pixel][color];

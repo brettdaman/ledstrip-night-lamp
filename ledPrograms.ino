@@ -17,7 +17,7 @@ void twinkle() {
           virtualLeds[whichPixel] = CHSV( 96, 255, ledBrightness);
         }
       }else{
-         virtualLeds[whichPixel] = CRGB(7,7,7);
+         virtualLeds[whichPixel] = CRGB(8,8,8);
          //virtualLeds[whichPixel] = CRGB((ledBrightness / 3) + 10,(ledBrightness / 3) + 10,(ledBrightness / 3) + 10);
       }
     }
@@ -178,27 +178,29 @@ void brokenRingColor() {
   }
 }
 void oneColor() {
+  virtualLedsSpeed = 0;
   for( int pixel = 0; pixel < NUM_LEDS; pixel++) {  
     if(oneColorHue<0){
-      leds[pixel] = CRGB(ledBrightness,ledBrightness,ledBrightness);
+      virtualLeds[pixel] = CRGB(ledBrightness,ledBrightness,ledBrightness);
     }else{
-      leds[pixel] = CHSV( oneColorHue, 255, ledBrightness);
+      virtualLeds[pixel] = CHSV( oneColorHue, 255, ledBrightness);
     }
   }
 }
 void twoColor() {
+  virtualLedsSpeed = 0;
   for( int pixel = 0; pixel < NUM_LEDS; pixel++) {  
     if (!isvalueinarray(pixel,elanaLeds,sizeof(elanaLeds)/4)){
       if(twoColorHue[0]<0){
-        leds[pixel] = CRGB(ledBrightness,ledBrightness,ledBrightness);
+        virtualLeds[pixel] = CRGB(ledBrightness,ledBrightness,ledBrightness);
       }else{
-        leds[pixel] = CHSV( twoColorHue[0], 255, ledBrightness);
+        virtualLeds[pixel] = CHSV( twoColorHue[0], 255, ledBrightness);
       }
     }else{
       if(twoColorHue[1]<0){
-        leds[pixel] = CRGB(ledBrightness,ledBrightness,ledBrightness);
+        virtualLeds[pixel] = CRGB(ledBrightness,ledBrightness,ledBrightness);
       }else{
-        leds[pixel] = CHSV( twoColorHue[1], 255, ledBrightness);
+        virtualLeds[pixel] = CHSV( twoColorHue[1], 255, ledBrightness);
       }
     }
   }
