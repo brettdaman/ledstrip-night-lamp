@@ -25,4 +25,4 @@ The remote can:
 The design and the code are opensource so you can build it yourself.
 
 The design:
-To be added
+http://www.thingiverse.com/thing:2078079
