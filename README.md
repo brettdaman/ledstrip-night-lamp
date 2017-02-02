@@ -39,7 +39,7 @@ What you need:
 
 I did forget to take a picture of the electronics before gifting the part so I will do my best to describe it with a drawing
 
-
+![alt tag](https://github.com/brettdaman/ledstrip-night-lamp/blob/master/electrics_wiring.jpg)
 
 How to build
  - First 3D print the parts from thingiverese (http://www.thingiverse.com/thing:2078079)
@@ -72,7 +72,8 @@ How to build
  
  
 
-The adafruit products I used
+The adafruit products I used:
+
 1 x Mini Remote Control[ID:389] = $4.95
 1 x IR (Infrared) Receiver Sensor (TSOP38238) [ID:157] = $1.95
 1 x Adafruit Mini Skinny NeoPixel Digital RGB LED Strip - 144 LED/m (1m WHITE) [ID:2969] = $64.95
