@@ -37,9 +37,8 @@ What you need:
  - power connector + 5v power supply
  - 2 M3 screws (or m4 if your printer cant print the thread)
 
-I did forget to take a picture of the electronics before gifting the part so I will do my best to describe it with a drawing
 
-![alt tag](https://github.com/brettdaman/ledstrip-night-lamp/blob/master/electrics_wiring.jpg)
+![alt tag](https://github.com/brettdaman/ledstrip-night-lamp/blob/master/electrics_overview.jpg)
 
 How to build
  - First 3D print the parts from thingiverese (http://www.thingiverse.com/thing:2078079)
@@ -78,3 +77,13 @@ The adafruit products I used:
 1 x IR (Infrared) Receiver Sensor (TSOP38238) [ID:157] = $1.95
 1 x Adafruit Mini Skinny NeoPixel Digital RGB LED Strip - 144 LED/m (1m WHITE) [ID:2969] = $64.95
 1 x Teensy-LC Without Pins[ID:2419] = $13.95
+
+
+Extra build images:
+
+![alt tag](https://github.com/brettdaman/ledstrip-night-lamp/blob/master/electrics_wiring.jpg)
+
+![alt tag](https://github.com/brettdaman/ledstrip-night-lamp/blob/master/on_off_button_connection.jpg)
+
+
+
