@@ -38,7 +38,7 @@ What you need:
  - 2 M3 screws (or m4 if your printer cant print the thread)
 
 
-![alt tag](https://github.com/brettdaman/ledstrip-night-lamp/blob/master/electrics_overview.jpg)
+![alt tag](https://github.com/brettdaman/ledstrip-night-lamp/blob/master/electronics_overview.jpg)
 
 How to build
  - First 3D print the parts from thingiverese (http://www.thingiverse.com/thing:2078079)
@@ -81,7 +81,7 @@ The adafruit products I used:
 
 Extra build images:
 
-![alt tag](https://github.com/brettdaman/ledstrip-night-lamp/blob/master/electrics_wiring.jpg)
+![alt tag](https://github.com/brettdaman/ledstrip-night-lamp/blob/master/electronics_wiring.jpg)
 
 ![alt tag](https://github.com/brettdaman/ledstrip-night-lamp/blob/master/on_off_button_connection.jpg)
 
